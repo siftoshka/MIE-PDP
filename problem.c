@@ -96,19 +96,21 @@ void recursiveBruteForce(bool *solution, float cutSum, int depth) {
             minCutArray[i] = solution[i];
         return;
     }
-int x = 1;
+
     solution[depth] = false;
-#pragma omp task shared(x) depend(out: x)
+#pragma omp task
     {
         printf("Number of thread (false): %d \n", call);
         recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
+#pragma omp atomic
         call++;
     };
     solution[depth] = true;
-#pragma omp task shared(x) depend(in: x)
+#pragma omp task
     {
         printf("Number of thread (true): %d \n", call);
         recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
+#pragma omp atomic
         call++;
     };
 }

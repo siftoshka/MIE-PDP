@@ -21,6 +21,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZB1GXMtYOloaDg7CmfEUtLK5vB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -86,22 +90,22 @@
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state x="578" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.970@0.23.1680.970" timestamp="1584556621771" />
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1585094516752">
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1585141811276">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1585094516752" />
-    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1585094516752">
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1585141811276" />
+    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1585141811275">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1585094516752" />
-    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1585094516751">
+    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1585141811275" />
+    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1585141811275">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1585094516751" />
-    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1585094516752">
+    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1585141811275" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1585141811275">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1585094516752" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1585141811275" />
     <state width="1638" height="322" key="GridCell.Tab.1.bottom" timestamp="1584581785661">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
