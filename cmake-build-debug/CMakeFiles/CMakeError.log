@@ -1,0 +1,1228 @@
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a5ea/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a5ea.dir/build.make CMakeFiles/cmTC_3a5ea.dir/build
+Building C object CMakeFiles/cmTC_3a5ea.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3a5ea.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3a5ea.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_3a5ea.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_3a5ea
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a5ea.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a5ea.dir/OpenMPTryFlag.c.o  -o cmTC_3a5ea -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_3a5ea -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_3a5ea.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3a5ea] Error 1
+make: *** [cmTC_3a5ea/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d967a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d967a.dir/build.make CMakeFiles/cmTC_d967a.dir/build
+Building C object CMakeFiles/cmTC_d967a.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d967a.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d967a.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_d967a.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_d967a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d967a.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d967a.dir/OpenMPTryFlag.c.o  -o cmTC_d967a -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_d967a -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_d967a.dir/OpenMPTryFlag.c.o -v -liomp5 -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -liomp5
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d967a] Error 1
+make: *** [cmTC_d967a/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51d37/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51d37.dir/build.make CMakeFiles/cmTC_51d37.dir/build
+Building C object CMakeFiles/cmTC_51d37.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_51d37.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_51d37.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_51d37.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_51d37
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51d37.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51d37.dir/OpenMPTryFlag.c.o  -o cmTC_51d37 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_51d37 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_51d37.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_51d37] Error 1
+make: *** [cmTC_51d37/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74c29/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_74c29.dir/build.make CMakeFiles/cmTC_74c29.dir/build
+Building C object CMakeFiles/cmTC_74c29.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_74c29.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_74c29.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_74c29.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_74c29
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74c29.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_74c29.dir/OpenMPTryFlag.c.o  -o cmTC_74c29 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_74c29 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_74c29.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_74c29] Error 1
+make: *** [cmTC_74c29/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5b2d6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5b2d6.dir/build.make CMakeFiles/cmTC_5b2d6.dir/build
+Building C object CMakeFiles/cmTC_5b2d6.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5b2d6.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_5b2d6.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_5b2d6.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_5b2d6
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b2d6.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5b2d6.dir/OpenMPTryFlag.c.o  -o cmTC_5b2d6 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_5b2d6 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_5b2d6.dir/OpenMPTryFlag.c.o -v -liomp5 -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -liomp5
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5b2d6] Error 1
+make: *** [cmTC_5b2d6/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51d9c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_51d9c.dir/build.make CMakeFiles/cmTC_51d9c.dir/build
+Building C object CMakeFiles/cmTC_51d9c.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_51d9c.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_51d9c.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_51d9c.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_51d9c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51d9c.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_51d9c.dir/OpenMPTryFlag.c.o  -o cmTC_51d9c -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_51d9c -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_51d9c.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_51d9c] Error 1
+make: *** [cmTC_51d9c/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc53a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fc53a.dir/build.make CMakeFiles/cmTC_fc53a.dir/build
+Building C object CMakeFiles/cmTC_fc53a.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_fc53a.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_fc53a.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_fc53a.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_fc53a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc53a.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fc53a.dir/OpenMPTryFlag.c.o  -o cmTC_fc53a -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_fc53a -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_fc53a.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fc53a] Error 1
+make: *** [cmTC_fc53a/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d942e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d942e.dir/build.make CMakeFiles/cmTC_d942e.dir/build
+Building C object CMakeFiles/cmTC_d942e.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d942e.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d942e.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_d942e.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_d942e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d942e.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d942e.dir/OpenMPTryFlag.c.o  -o cmTC_d942e -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_d942e -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_d942e.dir/OpenMPTryFlag.c.o -v -liomp5 -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -liomp5
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d942e] Error 1
+make: *** [cmTC_d942e/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b851/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3b851.dir/build.make CMakeFiles/cmTC_3b851.dir/build
+Building C object CMakeFiles/cmTC_3b851.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3b851.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3b851.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_3b851.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_3b851
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b851.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3b851.dir/OpenMPTryFlag.c.o  -o cmTC_3b851 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_3b851 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_3b851.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3b851] Error 1
+make: *** [cmTC_3b851/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e397/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3e397.dir/build.make CMakeFiles/cmTC_3e397.dir/build
+Building C object CMakeFiles/cmTC_3e397.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3e397.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_3e397.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_3e397.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_3e397
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e397.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3e397.dir/OpenMPTryFlag.c.o  -o cmTC_3e397 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_3e397 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_3e397.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3e397] Error 1
+make: *** [cmTC_3e397/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b98ab/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b98ab.dir/build.make CMakeFiles/cmTC_b98ab.dir/build
+Building C object CMakeFiles/cmTC_b98ab.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b98ab.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b98ab.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_b98ab.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_b98ab
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b98ab.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b98ab.dir/OpenMPTryFlag.c.o  -o cmTC_b98ab -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_b98ab -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_b98ab.dir/OpenMPTryFlag.c.o -v -liomp5 -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -liomp5
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b98ab] Error 1
+make: *** [cmTC_b98ab/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd30b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fd30b.dir/build.make CMakeFiles/cmTC_fd30b.dir/build
+Building C object CMakeFiles/cmTC_fd30b.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_fd30b.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_fd30b.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_fd30b.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_fd30b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd30b.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fd30b.dir/OpenMPTryFlag.c.o  -o cmTC_fd30b -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_fd30b -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_fd30b.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fd30b] Error 1
+make: *** [cmTC_fd30b/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d8031/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d8031.dir/build.make CMakeFiles/cmTC_d8031.dir/build
+Building C object CMakeFiles/cmTC_d8031.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d8031.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d8031.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_d8031.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_d8031
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8031.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d8031.dir/OpenMPTryFlag.c.o  -o cmTC_d8031 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_d8031 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_d8031.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d8031] Error 1
+make: *** [cmTC_d8031/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8db55/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8db55.dir/build.make CMakeFiles/cmTC_8db55.dir/build
+Building C object CMakeFiles/cmTC_8db55.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8db55.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_8db55.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_8db55.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_8db55
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8db55.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8db55.dir/OpenMPTryFlag.c.o  -o cmTC_8db55 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_8db55 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_8db55.dir/OpenMPTryFlag.c.o -v -liomp5 -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -liomp5
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8db55] Error 1
+make: *** [cmTC_8db55/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1d242/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1d242.dir/build.make CMakeFiles/cmTC_1d242.dir/build
+Building C object CMakeFiles/cmTC_1d242.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1d242.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_1d242.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_1d242.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_1d242
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d242.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1d242.dir/OpenMPTryFlag.c.o  -o cmTC_1d242 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_1d242 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_1d242.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1d242] Error 1
+make: *** [cmTC_1d242/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d7a65/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d7a65.dir/build.make CMakeFiles/cmTC_d7a65.dir/build
+Building C object CMakeFiles/cmTC_d7a65.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d7a65.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d7a65.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_d7a65.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_d7a65
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7a65.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d7a65.dir/OpenMPTryFlag.c.o  -o cmTC_d7a65 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_d7a65 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_d7a65.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d7a65] Error 1
+make: *** [cmTC_d7a65/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d31f0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d31f0.dir/build.make CMakeFiles/cmTC_d31f0.dir/build
+Building C object CMakeFiles/cmTC_d31f0.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d31f0.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_d31f0.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_d31f0.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_d31f0
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d31f0.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libiomp5 -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d31f0.dir/OpenMPTryFlag.c.o  -o cmTC_d31f0 -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_d31f0 -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_d31f0.dir/OpenMPTryFlag.c.o -v -liomp5 -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -liomp5
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d31f0] Error 1
+make: *** [cmTC_d31f0/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b27cf/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b27cf.dir/build.make CMakeFiles/cmTC_b27cf.dir/build
+Building C object CMakeFiles/cmTC_b27cf.dir/OpenMPTryFlag.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b27cf.dir/OpenMPTryFlag.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/local/Cellar/llvm/9.0.1/bin/clang-9" -cc1 -triple x86_64-apple-macosx10.15.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -masm-verbose -munwind-tables -target-sdk-version=10.15 -target-cpu penryn -dwarf-column-info -debugger-tuning=lldb -ggnu-pubnames -target-linker-version 530 -v -coverage-notes-file /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b27cf.dir/OpenMPTryFlag.c.gcno -resource-dir /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include -internal-isystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include -fdebug-compilation-dir /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=macosx-10.15.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_b27cf.dir/OpenMPTryFlag.c.o -x c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 9.0.1 based upon LLVM 9.0.1 default target x86_64-apple-darwin19.3.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_b27cf
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b27cf.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp -v -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b27cf.dir/OpenMPTryFlag.c.o  -o cmTC_b27cf -v -Wl,-v 
+clang version 9.0.1 
+Target: x86_64-apple-darwin19.3.0
+Thread model: posix
+InstalledDir: /usr/local/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/9.0.1/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.15.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o cmTC_b27cf -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_b27cf.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 18:57:17 Dec 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b27cf] Error 1
+make: *** [cmTC_b27cf/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48f43/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48f43.dir/build.make CMakeFiles/cmTC_48f43.dir/build
+Building C object CMakeFiles/cmTC_48f43.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_48f43.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_48f43
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48f43.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48f43.dir/OpenMPCheckVersion.c.o  -o cmTC_48f43 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_48f43] Error 1
+make: *** [cmTC_48f43/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e8b4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1e8b4.dir/build.make CMakeFiles/cmTC_1e8b4.dir/build
+Building C object CMakeFiles/cmTC_1e8b4.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1e8b4.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_1e8b4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e8b4.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1e8b4.dir/OpenMPCheckVersion.c.o  -o cmTC_1e8b4 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1e8b4] Error 1
+make: *** [cmTC_1e8b4/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5b74e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5b74e.dir/build.make CMakeFiles/cmTC_5b74e.dir/build
+Building C object CMakeFiles/cmTC_5b74e.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5b74e.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_5b74e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b74e.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5b74e.dir/OpenMPCheckVersion.c.o  -o cmTC_5b74e 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5b74e] Error 1
+make: *** [cmTC_5b74e/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3d3ef/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3d3ef.dir/build.make CMakeFiles/cmTC_3d3ef.dir/build
+Building C object CMakeFiles/cmTC_3d3ef.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3d3ef.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_3d3ef
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3ef.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3d3ef.dir/OpenMPCheckVersion.c.o  -o cmTC_3d3ef 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3d3ef] Error 1
+make: *** [cmTC_3d3ef/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_507ce/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_507ce.dir/build.make CMakeFiles/cmTC_507ce.dir/build
+Building C object CMakeFiles/cmTC_507ce.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_507ce.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_507ce
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_507ce.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_507ce.dir/OpenMPCheckVersion.c.o  -o cmTC_507ce 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_507ce] Error 1
+make: *** [cmTC_507ce/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_af9cf/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_af9cf.dir/build.make CMakeFiles/cmTC_af9cf.dir/build
+Building C object CMakeFiles/cmTC_af9cf.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_af9cf.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_af9cf
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af9cf.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_af9cf.dir/OpenMPCheckVersion.c.o  -o cmTC_af9cf 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_af9cf] Error 1
+make: *** [cmTC_af9cf/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_771ec/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_771ec.dir/build.make CMakeFiles/cmTC_771ec.dir/build
+Building C object CMakeFiles/cmTC_771ec.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_771ec.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_771ec
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_771ec.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_771ec.dir/OpenMPCheckVersion.c.o  -o cmTC_771ec 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_771ec] Error 1
+make: *** [cmTC_771ec/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_134e5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_134e5.dir/build.make CMakeFiles/cmTC_134e5.dir/build
+Building C object CMakeFiles/cmTC_134e5.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_134e5.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_134e5
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_134e5.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_134e5.dir/OpenMPCheckVersion.c.o  -o cmTC_134e5 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_134e5] Error 1
+make: *** [cmTC_134e5/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0a462/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0a462.dir/build.make CMakeFiles/cmTC_0a462.dir/build
+Building C object CMakeFiles/cmTC_0a462.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_0a462.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_0a462
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a462.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0a462.dir/OpenMPCheckVersion.c.o  -o cmTC_0a462 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0a462] Error 1
+make: *** [cmTC_0a462/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09e12/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_09e12.dir/build.make CMakeFiles/cmTC_09e12.dir/build
+Building C object CMakeFiles/cmTC_09e12.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libgomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_09e12.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:6:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/100000)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:7:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/10000)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:8:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/1000)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:9:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/100)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:10:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/10)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:11:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/1)%10)),
+                                     ^
+6 errors generated.
+make[1]: *** [CMakeFiles/cmTC_09e12.dir/OpenMPCheckVersion.c.o] Error 1
+make: *** [cmTC_09e12/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_195f4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_195f4.dir/build.make CMakeFiles/cmTC_195f4.dir/build
+Building C object CMakeFiles/cmTC_195f4.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_195f4.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_195f4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_195f4.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_195f4.dir/OpenMPCheckVersion.c.o  -o cmTC_195f4 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_195f4] Error 1
+make: *** [cmTC_195f4/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_01e06/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_01e06.dir/build.make CMakeFiles/cmTC_01e06.dir/build
+Building C object CMakeFiles/cmTC_01e06.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_01e06.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_01e06
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01e06.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_01e06.dir/OpenMPCheckVersion.c.o  -o cmTC_01e06 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_01e06] Error 1
+make: *** [cmTC_01e06/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9398c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9398c.dir/build.make CMakeFiles/cmTC_9398c.dir/build
+Building C object CMakeFiles/cmTC_9398c.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9398c.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_9398c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9398c.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9398c.dir/OpenMPCheckVersion.c.o  -o cmTC_9398c 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9398c] Error 1
+make: *** [cmTC_9398c/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9bb67/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9bb67.dir/build.make CMakeFiles/cmTC_9bb67.dir/build
+Building C object CMakeFiles/cmTC_9bb67.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9bb67.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_9bb67
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bb67.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9bb67.dir/OpenMPCheckVersion.c.o  -o cmTC_9bb67 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9bb67] Error 1
+make: *** [cmTC_9bb67/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c3f63/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c3f63.dir/build.make CMakeFiles/cmTC_c3f63.dir/build
+Building C object CMakeFiles/cmTC_c3f63.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c3f63.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_c3f63
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f63.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c3f63.dir/OpenMPCheckVersion.c.o  -o cmTC_c3f63 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[2]: *** [cmTC_c3f63] Error 1
+make[1]: *** [cmTC_c3f63/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_080fc/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_080fc.dir/build.make CMakeFiles/cmTC_080fc.dir/build
+Building C object CMakeFiles/cmTC_080fc.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_080fc.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_080fc
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_080fc.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_080fc.dir/OpenMPCheckVersion.c.o  -o cmTC_080fc 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_080fc] Error 1
+make: *** [cmTC_080fc/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e94fe/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e94fe.dir/build.make CMakeFiles/cmTC_e94fe.dir/build
+Building C object CMakeFiles/cmTC_e94fe.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e94fe.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_e94fe
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e94fe.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e94fe.dir/OpenMPCheckVersion.c.o  -o cmTC_e94fe 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e94fe] Error 1
+make: *** [cmTC_e94fe/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61cb0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_61cb0.dir/build.make CMakeFiles/cmTC_61cb0.dir/build
+Building C object CMakeFiles/cmTC_61cb0.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_61cb0.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_61cb0
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61cb0.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_61cb0.dir/OpenMPCheckVersion.c.o  -o cmTC_61cb0 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_61cb0] Error 1
+make: *** [cmTC_61cb0/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8658e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8658e.dir/build.make CMakeFiles/cmTC_8658e.dir/build
+Building C object CMakeFiles/cmTC_8658e.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8658e.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_8658e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8658e.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8658e.dir/OpenMPCheckVersion.c.o  -o cmTC_8658e 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8658e] Error 1
+make: *** [cmTC_8658e/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a7c08/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a7c08.dir/build.make CMakeFiles/cmTC_a7c08.dir/build
+Building C object CMakeFiles/cmTC_a7c08.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp.dylib -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a7c08.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+clang-9: error: unsupported argument 'libomp.dylib' to option 'fopenmp='
+make[1]: *** [CMakeFiles/cmTC_a7c08.dir/OpenMPCheckVersion.c.o] Error 1
+make: *** [cmTC_a7c08/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9fd1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d9fd1.dir/build.make CMakeFiles/cmTC_d9fd1.dir/build
+Building C object CMakeFiles/cmTC_d9fd1.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d9fd1.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_d9fd1
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9fd1.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d9fd1.dir/OpenMPCheckVersion.c.o  -o cmTC_d9fd1 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d9fd1] Error 1
+make: *** [cmTC_d9fd1/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_767a8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_767a8.dir/build.make CMakeFiles/cmTC_767a8.dir/build
+Building C object CMakeFiles/cmTC_767a8.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libgomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_767a8.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:6:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/100000)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:7:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/10000)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:8:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/1000)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:9:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/100)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:10:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/10)%10)),
+                                     ^
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:11:38: error: use of undeclared identifier '_OPENMP'
+                            ('0' + ((_OPENMP/1)%10)),
+                                     ^
+6 errors generated.
+make[1]: *** [CMakeFiles/cmTC_767a8.dir/OpenMPCheckVersion.c.o] Error 1
+make: *** [cmTC_767a8/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_73d77/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_73d77.dir/build.make CMakeFiles/cmTC_73d77.dir/build
+Building C object CMakeFiles/cmTC_73d77.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_73d77.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_73d77
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73d77.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_73d77.dir/OpenMPCheckVersion.c.o  -o cmTC_73d77 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_73d77] Error 1
+make: *** [cmTC_73d77/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8fb36/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8fb36.dir/build.make CMakeFiles/cmTC_8fb36.dir/build
+Building C object CMakeFiles/cmTC_8fb36.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8fb36.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_8fb36
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fb36.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8fb36.dir/OpenMPCheckVersion.c.o  -o cmTC_8fb36 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8fb36] Error 1
+make: *** [cmTC_8fb36/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9fc10/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9fc10.dir/build.make CMakeFiles/cmTC_9fc10.dir/build
+Building C object CMakeFiles/cmTC_9fc10.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9fc10.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_9fc10
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fc10.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9fc10.dir/OpenMPCheckVersion.c.o  -o cmTC_9fc10 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9fc10] Error 1
+make: *** [cmTC_9fc10/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06463/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_06463.dir/build.make CMakeFiles/cmTC_06463.dir/build
+Building C object CMakeFiles/cmTC_06463.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_06463.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_06463
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06463.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_06463.dir/OpenMPCheckVersion.c.o  -o cmTC_06463 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_06463] Error 1
+make: *** [cmTC_06463/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fab06/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fab06.dir/build.make CMakeFiles/cmTC_fab06.dir/build
+Building C object CMakeFiles/cmTC_fab06.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_fab06.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_fab06
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fab06.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fab06.dir/OpenMPCheckVersion.c.o  -o cmTC_fab06 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fab06] Error 1
+make: *** [cmTC_fab06/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bd0fa/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bd0fa.dir/build.make CMakeFiles/cmTC_bd0fa.dir/build
+Building C object CMakeFiles/cmTC_bd0fa.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_bd0fa.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_bd0fa
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd0fa.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bd0fa.dir/OpenMPCheckVersion.c.o  -o cmTC_bd0fa 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_bd0fa] Error 1
+make: *** [cmTC_bd0fa/fast] Error 2
+
+
+

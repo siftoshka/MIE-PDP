@@ -1,0 +1,3 @@
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/SeqSol.dir

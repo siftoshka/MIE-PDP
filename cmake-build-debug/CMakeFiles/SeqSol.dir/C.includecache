@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/azadmamiyev/CLionProjects/SeqSol/fileparse.h
+stdio.h
+-
+stdbool.h
+-
+stdlib.h
+-
+
+/Users/azadmamiyev/CLionProjects/SeqSol/problem.c
+problem.h
+/Users/azadmamiyev/CLionProjects/SeqSol/problem.h
+omp.h
+-
+
+/Users/azadmamiyev/CLionProjects/SeqSol/problem.h
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+stddef.h
+-
+fileparse.h
+/Users/azadmamiyev/CLionProjects/SeqSol/fileparse.h
+

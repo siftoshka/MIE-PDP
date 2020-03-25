@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SeqSol"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SeqSol">
+				<Option output="/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/SeqSol" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/llvm/include"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 SeqSol"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SeqSol/fast">
+				<Option output="/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/SeqSol" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/opt/llvm/include"/>
+					<Add directory="/usr/local/Cellar/llvm/9.0.1/lib/clang/9.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 SeqSol/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/azadmamiyev/CLionProjects/SeqSol/fileparse.c">
+			<Option target="SeqSol"/>
+		</Unit>
+		<Unit filename="/Users/azadmamiyev/CLionProjects/SeqSol/fileparse.h">
+			<Option target="SeqSol"/>
+		</Unit>
+		<Unit filename="/Users/azadmamiyev/CLionProjects/SeqSol/main.c">
+			<Option target="SeqSol"/>
+		</Unit>
+		<Unit filename="/Users/azadmamiyev/CLionProjects/SeqSol/problem.c">
+			<Option target="SeqSol"/>
+		</Unit>
+		<Unit filename="/Users/azadmamiyev/CLionProjects/SeqSol/problem.h">
+			<Option target="SeqSol"/>
+		</Unit>
+		<Unit filename="/Users/azadmamiyev/CLionProjects/SeqSol/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
