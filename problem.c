@@ -82,13 +82,17 @@ struct ProblemInstance readFromFile(FILE *file) {
     }
     return instance;
 }
-int call = 0;
+
+int p = 0;
 
 // Recursive Brute-Force
 void recursiveBruteForce(bool *solution, float cutSum, int depth) {
     // In case if it is not correct
     if (checkPartialSolution(solution, depth))return;
     if (cutSum > minCutValue) return;
+
+    printf("VALUE %f        %d %d      %d\n", minCutValue, depth, vertexCount, p);
+    p++;
 
     if (depth == vertexCount) {
         minCutValue = cutSum;
@@ -97,22 +101,17 @@ void recursiveBruteForce(bool *solution, float cutSum, int depth) {
         return;
     }
 
-    solution[depth] = false;
 #pragma omp task
     {
-        printf("Number of thread (false): %d \n", call);
-        recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
-#pragma omp atomic
-        call++;
-    };
-    solution[depth] = true;
+        solution[depth] = false;
 #pragma omp task
-    {
-        printf("Number of thread (true): %d \n", call);
         recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
-#pragma omp atomic
-        call++;
-    };
+
+        solution[depth] = true;
+#pragma omp task
+        recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
+    }
+#pragma omp taskwait
 }
 
 // Check Particular Solution to how many 1 and 0 have

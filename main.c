@@ -24,6 +24,8 @@ void SequentialSolution(FILE *file) {
     struct ProblemInstance instance = readFromFile(file);
 
     bool *solution = malloc(sizeof(bool) * vertexCount);
+    int depth = 0;
+    int cutSum = 0;
     for (int n = 0; n < vertexCount; n++) solution[n] = false;
     clock_t begin = clock(); // Start of execution
     // Parallel Part of Algorithm with certain number of threads
@@ -31,7 +33,7 @@ void SequentialSolution(FILE *file) {
     {
         printf("Number of thread: %d \n", omp_get_thread_num());
 #pragma omp single
-        recursiveBruteForce(solution, 0, 0);
+        recursiveBruteForce(solution, cutSum, depth);
     }
     clock_t end = clock(); // End of execution
 
@@ -45,6 +47,8 @@ void SequentialSolution(FILE *file) {
     printf("Runtime: %f s", time_spent);
 
     free(instance.graph.edges);
+    free(minCutArray);
+    free(solution);
 }
 
 

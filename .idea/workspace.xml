@@ -11,7 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20336346-e665-4815-81b1-298e10b5e8f2" name="Default Changelist" comment="" />
+    <list default="true" id="20336346-e665-4815-81b1-298e10b5e8f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SeqSol.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SeqSol.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SeqSol.dir/problem.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SeqSol.dir/problem.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SeqSol" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SeqSol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem.c" beforeDir="false" afterPath="$PROJECT_DIR$/problem.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +32,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZB1GXMtYOloaDg7CmfEUtLK5vB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -75,11 +83,28 @@
       <workItem from="1584887084270" duration="442000" />
       <workItem from="1584984165106" duration="20406000" />
       <workItem from="1585094291958" duration="225000" />
+      <workItem from="1585141628507" duration="268000" />
+      <workItem from="1585154070864" duration="177000" />
+      <workItem from="1585155687888" duration="4896000" />
+      <workItem from="1585161869635" duration="529000" />
+      <workItem from="1585233980616" duration="374000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1585141834983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585141834983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585063403653">
@@ -94,22 +119,22 @@
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state x="423" y="110" key="CommitChangelistDialog2/0.23.1680.970@0.23.1680.970" timestamp="1585141834859" />
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1585141811276">
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1585162399544">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1585141811276" />
-    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1585141811275">
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1585162399544" />
+    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1585162399543">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1585141811275" />
-    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1585141811275">
+    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1585162399543" />
+    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1585162399542">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1585141811275" />
-    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1585141811275">
+    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1585162399542" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1585162399543">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1585141811275" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1585162399543" />
     <state width="1638" height="322" key="GridCell.Tab.1.bottom" timestamp="1584581785661">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
