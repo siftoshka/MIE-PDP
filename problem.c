@@ -101,17 +101,14 @@ void recursiveBruteForce(bool *solution, float cutSum, int depth) {
         return;
     }
 
-#pragma omp task
-    {
-        solution[depth] = false;
-#pragma omp task
-        recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
 
-        solution[depth] = true;
+    solution[depth] = false;
 #pragma omp task
-        recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
-    }
-#pragma omp taskwait
+    recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
+
+    solution[depth] = true;
+#pragma omp task
+    recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
 }
 
 // Check Particular Solution to how many 1 and 0 have
