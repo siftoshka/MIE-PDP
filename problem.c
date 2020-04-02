@@ -83,20 +83,37 @@ struct ProblemInstance readFromFile(FILE *file) {
     return instance;
 }
 
-int p = 0;
-
 // Recursive Brute-Force
 void recursiveBruteForce(bool *solution, float cutSum, int depth) {
     // In case if it is not correct
     if (checkPartialSolution(solution, depth))return;
     if (cutSum > minCutValue) return;
 
-    printf("VALUE %f        %d %d      %d\n", minCutValue, depth, vertexCount, p);
-    p++;
-
     if (depth == vertexCount) {
         minCutValue = cutSum;
         for (int i = 0; i < vertexCount; i++)
+            minCutArray[i] = solution[i];
+        return;
+    }
+
+    solution[depth] = false;
+    recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
+
+    solution[depth] = true;
+    recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
+}
+
+// Recursive Brute-Force with OpenMP Task Parallelism
+void recursiveBruteForceOMPTask(bool *solution, float cutSum, int depth) {
+    // In case if it is not correct
+    if (checkPartialSolution(solution, depth))return;
+    if (cutSum > minCutValue) return;
+
+    if (depth == vertexCount) {
+#pragma omp critical
+        minCutValue = cutSum;
+        for (int i = 0; i < vertexCount; i++)
+#pragma omp critical
             minCutArray[i] = solution[i];
         return;
     }
@@ -117,7 +134,8 @@ bool checkPartialSolution(const bool *solution, int depth) {
     for (int i = 0; i < depth; i++) {
         if (solution[i]) a = a + 1;
         else n = n + 1;
-        if (a > subgroupSize || n > (vertexCount - subgroupSize)) return true;
+        if (a > subgroupSize || n > (vertexCount - subgroupSize))
+            return true;
     }
     return false;
 }

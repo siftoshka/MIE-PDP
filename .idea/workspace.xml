@@ -18,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/SeqSol" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SeqSol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/problem.c" beforeDir="false" afterPath="$PROJECT_DIR$/problem.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problem.h" beforeDir="false" afterPath="$PROJECT_DIR$/problem.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,9 @@
       <workItem from="1585154070864" duration="177000" />
       <workItem from="1585155687888" duration="4896000" />
       <workItem from="1585161869635" duration="529000" />
-      <workItem from="1585233980616" duration="374000" />
+      <workItem from="1585233980616" duration="1122000" />
+      <workItem from="1585400358199" duration="2939000" />
+      <workItem from="1585405543200" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1585141834983</created>
@@ -96,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585141834983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1585234812517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585234812517</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <created>1585234938430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585234938430</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,26 +132,26 @@
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state x="578" y="262" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.970@0.23.1680.970" timestamp="1584556621771" />
-    <state x="423" y="110" key="CommitChangelistDialog2" timestamp="1585234812198">
+    <state x="423" y="110" key="CommitChangelistDialog2" timestamp="1585234938326">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state x="423" y="110" key="CommitChangelistDialog2/0.23.1680.970@0.23.1680.970" timestamp="1585234812198" />
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1585162399544">
+    <state x="423" y="110" key="CommitChangelistDialog2/0.23.1680.970@0.23.1680.970" timestamp="1585234938326" />
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom" timestamp="1585405735464">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1585162399544" />
-    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1585162399543">
+    <state width="1638" height="246" key="GridCell.Tab.0.bottom/0.23.1680.970@0.23.1680.970" timestamp="1585405735464" />
+    <state width="1638" height="246" key="GridCell.Tab.0.center" timestamp="1585405735464">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1585162399543" />
-    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1585162399542">
+    <state width="1638" height="246" key="GridCell.Tab.0.center/0.23.1680.970@0.23.1680.970" timestamp="1585405735464" />
+    <state width="1638" height="246" key="GridCell.Tab.0.left" timestamp="1585405735463">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1585162399542" />
-    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1585162399543">
+    <state width="1638" height="246" key="GridCell.Tab.0.left/0.23.1680.970@0.23.1680.970" timestamp="1585405735463" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right" timestamp="1585405735464">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1585162399543" />
+    <state width="1638" height="246" key="GridCell.Tab.0.right/0.23.1680.970@0.23.1680.970" timestamp="1585405735464" />
     <state width="1638" height="322" key="GridCell.Tab.1.bottom" timestamp="1584581785661">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
@@ -155,10 +172,10 @@
       <screen x="0" y="23" width="1680" height="970" />
     </state>
     <state x="341" y="196" key="SettingsEditor/0.23.1680.970@0.23.1680.970" timestamp="1585085620026" />
-    <state x="440" y="248" key="Vcs.Push.Dialog.v2" timestamp="1585234814432">
+    <state x="440" y="248" key="Vcs.Push.Dialog.v2" timestamp="1585234940169">
       <screen x="0" y="23" width="1680" height="970" />
     </state>
-    <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.970@0.23.1680.970" timestamp="1585234814432" />
+    <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.970@0.23.1680.970" timestamp="1585234940169" />
     <state x="505" y="236" width="670" height="676" key="search.everywhere.popup" timestamp="1584578647908">
       <screen x="0" y="23" width="1680" height="970" />
     </state>

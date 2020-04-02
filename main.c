@@ -28,12 +28,14 @@ void SequentialSolution(FILE *file) {
     int cutSum = 0;
     for (int n = 0; n < vertexCount; n++) solution[n] = false;
     clock_t begin = clock(); // Start of execution
+
     // Parallel Part of Algorithm with certain number of threads
 #pragma omp parallel num_threads(2)
     {
         printf("Number of thread: %d \n", omp_get_thread_num());
 #pragma omp single
-        recursiveBruteForce(solution, cutSum, depth);
+        recursiveBruteForceOMPTask(solution, cutSum, depth);
+        //recursiveBruteForce(solution, cutSum, depth);
     }
     clock_t end = clock(); // End of execution
 

@@ -37,6 +37,8 @@ double minCutSum(const bool *solution, int depth);
 
 void recursiveBruteForce(bool *solution, float cutSum, int depth);
 
+void recursiveBruteForceOMPTask(bool *solution, float cutSum, int depth);
+
 bool checkPartialSolution(const bool *solution, int depth);
 
 // Ends header guard
