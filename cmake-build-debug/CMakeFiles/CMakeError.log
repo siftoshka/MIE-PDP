@@ -1226,3 +1226,1187 @@ make: *** [cmTC_bd0fa/fast] Error 2
 
 
 
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4efb7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4efb7.dir/build.make CMakeFiles/cmTC_4efb7.dir/build
+Building C object CMakeFiles/cmTC_4efb7.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_4efb7.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_4efb7
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4efb7.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4efb7.dir/OpenMPCheckVersion.c.o  -o cmTC_4efb7 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_4efb7] Error 1
+make: *** [cmTC_4efb7/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_97bdd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_97bdd.dir/build.make CMakeFiles/cmTC_97bdd.dir/build
+Building C object CMakeFiles/cmTC_97bdd.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_97bdd.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_97bdd
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97bdd.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_97bdd.dir/OpenMPCheckVersion.c.o  -o cmTC_97bdd 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_97bdd] Error 1
+make: *** [cmTC_97bdd/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81a19/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_81a19.dir/build.make CMakeFiles/cmTC_81a19.dir/build
+Building C object CMakeFiles/cmTC_81a19.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_81a19.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_81a19
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81a19.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81a19.dir/OpenMPCheckVersion.c.o  -o cmTC_81a19 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_81a19] Error 1
+make: *** [cmTC_81a19/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7f2f0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7f2f0.dir/build.make CMakeFiles/cmTC_7f2f0.dir/build
+Building C object CMakeFiles/cmTC_7f2f0.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7f2f0.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_7f2f0
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f2f0.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7f2f0.dir/OpenMPCheckVersion.c.o  -o cmTC_7f2f0 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_7f2f0] Error 1
+make: *** [cmTC_7f2f0/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_215aa/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_215aa.dir/build.make CMakeFiles/cmTC_215aa.dir/build
+Building C object CMakeFiles/cmTC_215aa.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_215aa.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_215aa
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_215aa.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_215aa.dir/OpenMPCheckVersion.c.o  -o cmTC_215aa 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_215aa] Error 1
+make: *** [cmTC_215aa/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2a183/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2a183.dir/build.make CMakeFiles/cmTC_2a183.dir/build
+Building C object CMakeFiles/cmTC_2a183.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2a183.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_2a183
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a183.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2a183.dir/OpenMPCheckVersion.c.o  -o cmTC_2a183 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_2a183] Error 1
+make: *** [cmTC_2a183/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1da6b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1da6b.dir/build.make CMakeFiles/cmTC_1da6b.dir/build
+Building C object CMakeFiles/cmTC_1da6b.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1da6b.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_1da6b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1da6b.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1da6b.dir/OpenMPCheckVersion.c.o  -o cmTC_1da6b 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1da6b] Error 1
+make: *** [cmTC_1da6b/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dc8da/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dc8da.dir/build.make CMakeFiles/cmTC_dc8da.dir/build
+Building C object CMakeFiles/cmTC_dc8da.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_dc8da.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_dc8da
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc8da.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dc8da.dir/OpenMPCheckVersion.c.o  -o cmTC_dc8da 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_dc8da] Error 1
+make: *** [cmTC_dc8da/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1ee33/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1ee33.dir/build.make CMakeFiles/cmTC_1ee33.dir/build
+Building C object CMakeFiles/cmTC_1ee33.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1ee33.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_1ee33
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ee33.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_1ee33.dir/test_mpi.c.o  -o cmTC_1ee33 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1ee33] Error 1
+make: *** [cmTC_1ee33/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c686c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c686c.dir/build.make CMakeFiles/cmTC_c686c.dir/build
+Building C object CMakeFiles/cmTC_c686c.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c686c.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_c686c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c686c.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c686c.dir/OpenMPCheckVersion.c.o  -o cmTC_c686c 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c686c] Error 1
+make: *** [cmTC_c686c/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dfcb9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dfcb9.dir/build.make CMakeFiles/cmTC_dfcb9.dir/build
+Building C object CMakeFiles/cmTC_dfcb9.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_dfcb9.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_dfcb9
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfcb9.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_dfcb9.dir/test_mpi.c.o  -o cmTC_dfcb9 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_dfcb9] Error 1
+make: *** [cmTC_dfcb9/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e632/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2e632.dir/build.make CMakeFiles/cmTC_2e632.dir/build
+Building C object CMakeFiles/cmTC_2e632.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_2e632.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_2e632
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e632.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2e632.dir/OpenMPCheckVersion.c.o  -o cmTC_2e632 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_2e632] Error 1
+make: *** [cmTC_2e632/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_80f3a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_80f3a.dir/build.make CMakeFiles/cmTC_80f3a.dir/build
+Building C object CMakeFiles/cmTC_80f3a.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_80f3a.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_80f3a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80f3a.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_80f3a.dir/test_mpi.c.o  -o cmTC_80f3a /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_80f3a] Error 1
+make: *** [cmTC_80f3a/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0638b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0638b.dir/build.make CMakeFiles/cmTC_0638b.dir/build
+Building C object CMakeFiles/cmTC_0638b.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_0638b.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_0638b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0638b.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0638b.dir/OpenMPCheckVersion.c.o  -o cmTC_0638b 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0638b] Error 1
+make: *** [cmTC_0638b/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ee824/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ee824.dir/build.make CMakeFiles/cmTC_ee824.dir/build
+Building C object CMakeFiles/cmTC_ee824.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ee824.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_ee824
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee824.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_ee824.dir/test_mpi.c.o  -o cmTC_ee824 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_ee824] Error 1
+make: *** [cmTC_ee824/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8074b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8074b.dir/build.make CMakeFiles/cmTC_8074b.dir/build
+Building C object CMakeFiles/cmTC_8074b.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8074b.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_8074b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8074b.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8074b.dir/OpenMPCheckVersion.c.o  -o cmTC_8074b 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8074b] Error 1
+make: *** [cmTC_8074b/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_60046/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_60046.dir/build.make CMakeFiles/cmTC_60046.dir/build
+Building C object CMakeFiles/cmTC_60046.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_60046.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_60046
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60046.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_60046.dir/test_mpi.c.o  -o cmTC_60046 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_60046] Error 1
+make: *** [cmTC_60046/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29818/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_29818.dir/build.make CMakeFiles/cmTC_29818.dir/build
+Building C object CMakeFiles/cmTC_29818.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_29818.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_29818
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29818.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_29818.dir/OpenMPCheckVersion.c.o  -o cmTC_29818 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_29818] Error 1
+make: *** [cmTC_29818/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_869e6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_869e6.dir/build.make CMakeFiles/cmTC_869e6.dir/build
+Building C object CMakeFiles/cmTC_869e6.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_869e6.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_869e6
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_869e6.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_869e6.dir/test_mpi.c.o  -o cmTC_869e6 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_869e6] Error 1
+make: *** [cmTC_869e6/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b7ce8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_b7ce8.dir/build.make CMakeFiles/cmTC_b7ce8.dir/build
+Building C object CMakeFiles/cmTC_b7ce8.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_b7ce8.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_b7ce8
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7ce8.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b7ce8.dir/OpenMPCheckVersion.c.o  -o cmTC_b7ce8 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_b7ce8] Error 1
+make: *** [cmTC_b7ce8/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_630b8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_630b8.dir/build.make CMakeFiles/cmTC_630b8.dir/build
+Building C object CMakeFiles/cmTC_630b8.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_630b8.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_630b8
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_630b8.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_630b8.dir/test_mpi.c.o  -o cmTC_630b8 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_630b8] Error 1
+make: *** [cmTC_630b8/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a795/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a795.dir/build.make CMakeFiles/cmTC_3a795.dir/build
+Building C object CMakeFiles/cmTC_3a795.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_3a795.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_3a795
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a795.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3a795.dir/OpenMPCheckVersion.c.o  -o cmTC_3a795 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3a795] Error 1
+make: *** [cmTC_3a795/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9da14/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9da14.dir/build.make CMakeFiles/cmTC_9da14.dir/build
+Building C object CMakeFiles/cmTC_9da14.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9da14.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_9da14
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9da14.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_9da14.dir/test_mpi.c.o  -o cmTC_9da14 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9da14] Error 1
+make: *** [cmTC_9da14/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_df0b5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_df0b5.dir/build.make CMakeFiles/cmTC_df0b5.dir/build
+Building C object CMakeFiles/cmTC_df0b5.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_df0b5.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_df0b5
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df0b5.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_df0b5.dir/OpenMPCheckVersion.c.o  -o cmTC_df0b5 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_df0b5] Error 1
+make: *** [cmTC_df0b5/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc393/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cc393.dir/build.make CMakeFiles/cmTC_cc393.dir/build
+Building C object CMakeFiles/cmTC_cc393.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cc393.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_cc393
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc393.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_cc393.dir/test_mpi.c.o  -o cmTC_cc393 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_cc393] Error 1
+make: *** [cmTC_cc393/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_915ff/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_915ff.dir/build.make CMakeFiles/cmTC_915ff.dir/build
+Building C object CMakeFiles/cmTC_915ff.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_915ff.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_915ff
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_915ff.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_915ff.dir/OpenMPCheckVersion.c.o  -o cmTC_915ff 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_915ff] Error 1
+make: *** [cmTC_915ff/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f738c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f738c.dir/build.make CMakeFiles/cmTC_f738c.dir/build
+Building C object CMakeFiles/cmTC_f738c.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f738c.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_f738c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f738c.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_f738c.dir/test_mpi.c.o  -o cmTC_f738c /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f738c] Error 1
+make: *** [cmTC_f738c/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e49ae/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e49ae.dir/build.make CMakeFiles/cmTC_e49ae.dir/build
+Building C object CMakeFiles/cmTC_e49ae.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e49ae.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_e49ae
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e49ae.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e49ae.dir/OpenMPCheckVersion.c.o  -o cmTC_e49ae 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e49ae] Error 1
+make: *** [cmTC_e49ae/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a0acb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a0acb.dir/build.make CMakeFiles/cmTC_a0acb.dir/build
+Building C object CMakeFiles/cmTC_a0acb.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_a0acb.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_a0acb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0acb.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a0acb.dir/OpenMPCheckVersion.c.o  -o cmTC_a0acb 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a0acb] Error 1
+make: *** [cmTC_a0acb/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e26a2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e26a2.dir/build.make CMakeFiles/cmTC_e26a2.dir/build
+Building C object CMakeFiles/cmTC_e26a2.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e26a2.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_e26a2
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e26a2.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_e26a2.dir/test_mpi.c.o  -o cmTC_e26a2 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e26a2] Error 1
+make: *** [cmTC_e26a2/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf2ae/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bf2ae.dir/build.make CMakeFiles/cmTC_bf2ae.dir/build
+Building C object CMakeFiles/cmTC_bf2ae.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_bf2ae.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_bf2ae
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf2ae.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bf2ae.dir/OpenMPCheckVersion.c.o  -o cmTC_bf2ae 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_bf2ae] Error 1
+make: *** [cmTC_bf2ae/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_01053/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_01053.dir/build.make CMakeFiles/cmTC_01053.dir/build
+Building C object CMakeFiles/cmTC_01053.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_01053.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_01053
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01053.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_01053.dir/test_mpi.c.o  -o cmTC_01053 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_01053] Error 1
+make: *** [cmTC_01053/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e9d4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1e9d4.dir/build.make CMakeFiles/cmTC_1e9d4.dir/build
+Building C object CMakeFiles/cmTC_1e9d4.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_1e9d4.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_1e9d4
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e9d4.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1e9d4.dir/OpenMPCheckVersion.c.o  -o cmTC_1e9d4 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_1e9d4] Error 1
+make: *** [cmTC_1e9d4/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fbf1b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fbf1b.dir/build.make CMakeFiles/cmTC_fbf1b.dir/build
+Building C object CMakeFiles/cmTC_fbf1b.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_fbf1b.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_fbf1b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbf1b.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fbf1b.dir/OpenMPCheckVersion.c.o  -o cmTC_fbf1b 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fbf1b] Error 1
+make: *** [cmTC_fbf1b/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9bf7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f9bf7.dir/build.make CMakeFiles/cmTC_f9bf7.dir/build
+Building C object CMakeFiles/cmTC_f9bf7.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f9bf7.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_f9bf7
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9bf7.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f9bf7.dir/OpenMPCheckVersion.c.o  -o cmTC_f9bf7 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f9bf7] Error 1
+make: *** [cmTC_f9bf7/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6343b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6343b.dir/build.make CMakeFiles/cmTC_6343b.dir/build
+Building C object CMakeFiles/cmTC_6343b.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6343b.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_6343b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6343b.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_6343b.dir/test_mpi.c.o  -o cmTC_6343b /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6343b] Error 1
+make: *** [cmTC_6343b/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aae30/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aae30.dir/build.make CMakeFiles/cmTC_aae30.dir/build
+Building C object CMakeFiles/cmTC_aae30.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_aae30.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_aae30
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aae30.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aae30.dir/OpenMPCheckVersion.c.o  -o cmTC_aae30 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_aae30] Error 1
+make: *** [cmTC_aae30/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7c1ed/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7c1ed.dir/build.make CMakeFiles/cmTC_7c1ed.dir/build
+Building C object CMakeFiles/cmTC_7c1ed.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7c1ed.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_7c1ed
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c1ed.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7c1ed.dir/OpenMPCheckVersion.c.o  -o cmTC_7c1ed 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_7c1ed] Error 1
+make: *** [cmTC_7c1ed/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_578c3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_578c3.dir/build.make CMakeFiles/cmTC_578c3.dir/build
+Building C object CMakeFiles/cmTC_578c3.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_578c3.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_578c3
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_578c3.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_578c3.dir/OpenMPCheckVersion.c.o  -o cmTC_578c3 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_578c3] Error 1
+make: *** [cmTC_578c3/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c54c5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c54c5.dir/build.make CMakeFiles/cmTC_c54c5.dir/build
+Building C object CMakeFiles/cmTC_c54c5.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c54c5.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_c54c5
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c54c5.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_c54c5.dir/test_mpi.c.o  -o cmTC_c54c5 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c54c5] Error 1
+make: *** [cmTC_c54c5/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6e7a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d6e7a.dir/build.make CMakeFiles/cmTC_d6e7a.dir/build
+Building C object CMakeFiles/cmTC_d6e7a.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d6e7a.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_d6e7a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6e7a.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d6e7a.dir/OpenMPCheckVersion.c.o  -o cmTC_d6e7a 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d6e7a] Error 1
+make: *** [cmTC_d6e7a/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56053/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_56053.dir/build.make CMakeFiles/cmTC_56053.dir/build
+Building C object CMakeFiles/cmTC_56053.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_56053.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_56053
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56053.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56053.dir/OpenMPCheckVersion.c.o  -o cmTC_56053 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_56053] Error 1
+make: *** [cmTC_56053/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_48922/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_48922.dir/build.make CMakeFiles/cmTC_48922.dir/build
+Building C object CMakeFiles/cmTC_48922.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_48922.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_48922
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48922.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_48922.dir/test_mpi.c.o  -o cmTC_48922 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_48922] Error 1
+make: *** [cmTC_48922/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8786f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8786f.dir/build.make CMakeFiles/cmTC_8786f.dir/build
+Building C object CMakeFiles/cmTC_8786f.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_8786f.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_8786f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8786f.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8786f.dir/OpenMPCheckVersion.c.o  -o cmTC_8786f 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8786f] Error 1
+make: *** [cmTC_8786f/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_131f9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_131f9.dir/build.make CMakeFiles/cmTC_131f9.dir/build
+Building C object CMakeFiles/cmTC_131f9.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_131f9.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_131f9
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_131f9.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_131f9.dir/test_mpi.c.o  -o cmTC_131f9 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_131f9] Error 1
+make: *** [cmTC_131f9/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5ee32/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5ee32.dir/build.make CMakeFiles/cmTC_5ee32.dir/build
+Building C object CMakeFiles/cmTC_5ee32.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5ee32.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_5ee32
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ee32.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5ee32.dir/OpenMPCheckVersion.c.o  -o cmTC_5ee32 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5ee32] Error 1
+make: *** [cmTC_5ee32/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_74de7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_74de7.dir/build.make CMakeFiles/cmTC_74de7.dir/build
+Building C object CMakeFiles/cmTC_74de7.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_74de7.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_74de7
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74de7.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_74de7.dir/test_mpi.c.o  -o cmTC_74de7 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_74de7] Error 1
+make: *** [cmTC_74de7/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7546b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7546b.dir/build.make CMakeFiles/cmTC_7546b.dir/build
+Building C object CMakeFiles/cmTC_7546b.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_7546b.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_7546b
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7546b.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7546b.dir/OpenMPCheckVersion.c.o  -o cmTC_7546b 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_7546b] Error 1
+make: *** [cmTC_7546b/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2cd3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e2cd3.dir/build.make CMakeFiles/cmTC_e2cd3.dir/build
+Building C object CMakeFiles/cmTC_e2cd3.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e2cd3.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_e2cd3
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2cd3.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e2cd3.dir/OpenMPCheckVersion.c.o  -o cmTC_e2cd3 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e2cd3] Error 1
+make: *** [cmTC_e2cd3/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_be7af/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_be7af.dir/build.make CMakeFiles/cmTC_be7af.dir/build
+Building C object CMakeFiles/cmTC_be7af.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_be7af.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_be7af
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be7af.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_be7af.dir/test_mpi.c.o  -o cmTC_be7af /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_be7af] Error 1
+make: *** [cmTC_be7af/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9f842/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9f842.dir/build.make CMakeFiles/cmTC_9f842.dir/build
+Building C object CMakeFiles/cmTC_9f842.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9f842.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_9f842
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f842.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9f842.dir/OpenMPCheckVersion.c.o  -o cmTC_9f842 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9f842] Error 1
+make: *** [cmTC_9f842/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18e74/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_18e74.dir/build.make CMakeFiles/cmTC_18e74.dir/build
+Building C object CMakeFiles/cmTC_18e74.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_18e74.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_18e74
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18e74.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_18e74.dir/test_mpi.c.o  -o cmTC_18e74 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_18e74] Error 1
+make: *** [cmTC_18e74/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6298e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6298e.dir/build.make CMakeFiles/cmTC_6298e.dir/build
+Building C object CMakeFiles/cmTC_6298e.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_6298e.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_6298e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6298e.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6298e.dir/OpenMPCheckVersion.c.o  -o cmTC_6298e 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6298e] Error 1
+make: *** [cmTC_6298e/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cb30f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cb30f.dir/build.make CMakeFiles/cmTC_cb30f.dir/build
+Building C object CMakeFiles/cmTC_cb30f.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cb30f.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_cb30f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb30f.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_cb30f.dir/test_mpi.c.o  -o cmTC_cb30f /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_cb30f] Error 1
+make: *** [cmTC_cb30f/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9c6cf/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9c6cf.dir/build.make CMakeFiles/cmTC_9c6cf.dir/build
+Building C object CMakeFiles/cmTC_9c6cf.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9c6cf.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_9c6cf
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c6cf.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9c6cf.dir/OpenMPCheckVersion.c.o  -o cmTC_9c6cf 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9c6cf] Error 1
+make: *** [cmTC_9c6cf/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d726f/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d726f.dir/build.make CMakeFiles/cmTC_d726f.dir/build
+Building C object CMakeFiles/cmTC_d726f.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_d726f.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_d726f
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d726f.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_d726f.dir/test_mpi.c.o  -o cmTC_d726f /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d726f] Error 1
+make: *** [cmTC_d726f/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_09327/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_09327.dir/build.make CMakeFiles/cmTC_09327.dir/build
+Building C object CMakeFiles/cmTC_09327.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_09327.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_09327
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09327.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_09327.dir/OpenMPCheckVersion.c.o  -o cmTC_09327 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_09327] Error 1
+make: *** [cmTC_09327/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_923ca/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_923ca.dir/build.make CMakeFiles/cmTC_923ca.dir/build
+Building C object CMakeFiles/cmTC_923ca.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_923ca.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_923ca
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_923ca.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_923ca.dir/test_mpi.c.o  -o cmTC_923ca /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_923ca] Error 1
+make: *** [cmTC_923ca/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba0f6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ba0f6.dir/build.make CMakeFiles/cmTC_ba0f6.dir/build
+Building C object CMakeFiles/cmTC_ba0f6.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_ba0f6.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_ba0f6
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba0f6.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ba0f6.dir/OpenMPCheckVersion.c.o  -o cmTC_ba0f6 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_ba0f6] Error 1
+make: *** [cmTC_ba0f6/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f7520/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f7520.dir/build.make CMakeFiles/cmTC_f7520.dir/build
+Building C object CMakeFiles/cmTC_f7520.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_f7520.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_f7520
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7520.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_f7520.dir/test_mpi.c.o  -o cmTC_f7520 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f7520] Error 1
+make: *** [cmTC_f7520/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_759fe/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_759fe.dir/build.make CMakeFiles/cmTC_759fe.dir/build
+Building C object CMakeFiles/cmTC_759fe.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_759fe.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_759fe
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_759fe.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_759fe.dir/OpenMPCheckVersion.c.o  -o cmTC_759fe 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_759fe] Error 1
+make: *** [cmTC_759fe/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_59cfd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_59cfd.dir/build.make CMakeFiles/cmTC_59cfd.dir/build
+Building C object CMakeFiles/cmTC_59cfd.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_59cfd.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_59cfd
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59cfd.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_59cfd.dir/test_mpi.c.o  -o cmTC_59cfd /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_59cfd] Error 1
+make: *** [cmTC_59cfd/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_22c0a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_22c0a.dir/build.make CMakeFiles/cmTC_22c0a.dir/build
+Building C object CMakeFiles/cmTC_22c0a.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_22c0a.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_22c0a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22c0a.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_22c0a.dir/OpenMPCheckVersion.c.o  -o cmTC_22c0a 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_22c0a] Error 1
+make: *** [cmTC_22c0a/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9349e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9349e.dir/build.make CMakeFiles/cmTC_9349e.dir/build
+Building C object CMakeFiles/cmTC_9349e.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9349e.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_9349e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9349e.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_9349e.dir/test_mpi.c.o  -o cmTC_9349e /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9349e] Error 1
+make: *** [cmTC_9349e/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92316/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_92316.dir/build.make CMakeFiles/cmTC_92316.dir/build
+Building C object CMakeFiles/cmTC_92316.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_92316.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_92316
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92316.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_92316.dir/OpenMPCheckVersion.c.o  -o cmTC_92316 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_92316] Error 1
+make: *** [cmTC_92316/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d08a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5d08a.dir/build.make CMakeFiles/cmTC_5d08a.dir/build
+Building C object CMakeFiles/cmTC_5d08a.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_5d08a.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_5d08a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d08a.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_5d08a.dir/test_mpi.c.o  -o cmTC_5d08a /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5d08a] Error 1
+make: *** [cmTC_5d08a/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9aa76/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9aa76.dir/build.make CMakeFiles/cmTC_9aa76.dir/build
+Building C object CMakeFiles/cmTC_9aa76.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_9aa76.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_9aa76
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9aa76.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9aa76.dir/OpenMPCheckVersion.c.o  -o cmTC_9aa76 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9aa76] Error 1
+make: *** [cmTC_9aa76/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e980c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e980c.dir/build.make CMakeFiles/cmTC_e980c.dir/build
+Building C object CMakeFiles/cmTC_e980c.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_e980c.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_e980c
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e980c.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_e980c.dir/test_mpi.c.o  -o cmTC_e980c /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e980c] Error 1
+make: *** [cmTC_e980c/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75b09/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_75b09.dir/build.make CMakeFiles/cmTC_75b09.dir/build
+Building C object CMakeFiles/cmTC_75b09.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_75b09.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_75b09
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75b09.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_75b09.dir/OpenMPCheckVersion.c.o  -o cmTC_75b09 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_75b09] Error 1
+make: *** [cmTC_75b09/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_99afa/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_99afa.dir/build.make CMakeFiles/cmTC_99afa.dir/build
+Building C object CMakeFiles/cmTC_99afa.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_99afa.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_99afa
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99afa.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_99afa.dir/test_mpi.c.o  -o cmTC_99afa /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_99afa] Error 1
+make: *** [cmTC_99afa/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fe448/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_fe448.dir/build.make CMakeFiles/cmTC_fe448.dir/build
+Building C object CMakeFiles/cmTC_fe448.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_fe448.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_fe448
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe448.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fe448.dir/OpenMPCheckVersion.c.o  -o cmTC_fe448 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_fe448] Error 1
+make: *** [cmTC_fe448/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cc476/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cc476.dir/build.make CMakeFiles/cmTC_cc476.dir/build
+Building C object CMakeFiles/cmTC_cc476.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_cc476.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_cc476
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc476.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_cc476.dir/test_mpi.c.o  -o cmTC_cc476 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_cc476] Error 1
+make: *** [cmTC_cc476/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c260e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c260e.dir/build.make CMakeFiles/cmTC_c260e.dir/build
+Building C object CMakeFiles/cmTC_c260e.dir/OpenMPCheckVersion.c.o
+/usr/local/opt/llvm/bin/clang   -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_c260e.dir/OpenMPCheckVersion.c.o   -c /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+Linking C executable cmTC_c260e
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c260e.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c260e.dir/OpenMPCheckVersion.c.o  -o cmTC_c260e 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c260e] Error 1
+make: *** [cmTC_c260e/fast] Error 2
+
+
+
+The MPI test test_mpi for C in mode normal failed to compile with the following output:
+Change Dir: /Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_79940/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_79940.dir/build.make CMakeFiles/cmTC_79940.dir/build
+Building C object CMakeFiles/cmTC_79940.dir/test_mpi.c.o
+/usr/local/opt/llvm/bin/clang  -isystem /usr/local/Cellar/open-mpi/4.0.3/include  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk   -o CMakeFiles/cmTC_79940.dir/test_mpi.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/FindMPI/test_mpi.c
+Linking C executable cmTC_79940
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79940.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -fopenmp=libomp -Wno-unused-command-line-argument  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   -L/usr/local/Cellar/libevent/2.1.11_1/lib CMakeFiles/cmTC_79940.dir/test_mpi.c.o  -o cmTC_79940 /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib 
+ld: library not found for -lomp
+clang-9: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_79940] Error 1
+make: *** [cmTC_79940/fast] Error 2
+
+
+

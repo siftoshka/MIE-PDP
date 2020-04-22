@@ -4,8 +4,8 @@
 #include <time.h>
 #include "problem.h"
 #include <omp.h>
-
-void SequentialSolution(FILE *file);
+#include </usr/local/opt/open-mpi/include/mpi.h>
+void Computation(FILE *file);
 
 int main(int argc, char **arguments) {
 
@@ -16,10 +16,12 @@ int main(int argc, char **arguments) {
         printf("Error: could not read file %s", filePath);
         exit(-1);
     }
-    SequentialSolution(file);
+    // Initialize the MPI environment
+    MPI_Init(NULL, NULL);
+    Computation(file);
 }
 
-void SequentialSolution(FILE *file) {
+void Computation(FILE *file) {
 
     struct ProblemInstance instance = readFromFile(file);
 
@@ -29,14 +31,36 @@ void SequentialSolution(FILE *file) {
     for (int n = 0; n < vertexCount; n++) solution[n] = false;
     clock_t begin = clock(); // Start of execution
 
-    // Parallel Part of Algorithm with certain number of threads
-#pragma omp parallel num_threads(2)
-    {
-        printf("Number of thread: %d \n", omp_get_thread_num());
-#pragma omp single
-        recursiveBruteForceOMPTask(solution, cutSum, depth);
-        //recursiveBruteForce(solution, cutSum, depth);
-    }
+    /**COMPUTER LAB 1**/
+    //recursiveBruteForce(solution, cutSum, depth);
+
+    /**COMPUTER LAB 2**/
+    // Parallel Part of Algorithm with certain number of threads (Task-Parallelism)
+//#pragma omp parallel num_threads(2)
+//    {
+//        printf("Number of thread: %d \n", omp_get_thread_num());
+//#pragma omp single
+//        recursiveBruteForceOMPTask(solution, cutSum, depth);
+//    }
+    /**COMPUTER LAB 3**/
+    // Parallel Part of Algorithm with certain number of threads (Data-Parallelism)
+//#pragma omp parallel for num_threads(2)
+//    {
+//        // for cycle for data-parallelism
+//        for (int i = 0; i < vertexCount; i++) {
+//            recursiveBruteForceOMPData(globalSolution, globalCutSum, depth);
+//        }
+//    }
+    /**COMPUTER LAB 4**/
+    // Parallel Part of Algorithm using Open MP with MPI.
+//#pragma omp parallel for num_threads(2)
+//    {
+//        // for cycle for data-parallelism
+//        for (int i = 0; i < vertexCount; i++) {
+//            recursiveBruteForceOMPData(globalSolution, globalCutSum, depth);
+//        }
+//    }
+
     clock_t end = clock(); // End of execution
 
     double time_spent = (double) (end - begin) / CLOCKS_PER_SEC; // Calculate time in seconds

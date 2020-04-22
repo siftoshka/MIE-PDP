@@ -14,10 +14,20 @@ stdbool.h
 stdlib.h
 -
 
-/Users/azadmamiyev/CLionProjects/SeqSol/problem.c
+/Users/azadmamiyev/CLionProjects/SeqSol/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+time.h
+-
 problem.h
 /Users/azadmamiyev/CLionProjects/SeqSol/problem.h
 omp.h
+-
+/usr/local/opt/open-mpi/include/mpi.h
 -
 
 /Users/azadmamiyev/CLionProjects/SeqSol/problem.h
@@ -31,4 +41,18 @@ stddef.h
 -
 fileparse.h
 /Users/azadmamiyev/CLionProjects/SeqSol/fileparse.h
+
+/usr/local/opt/open-mpi/include/mpi.h
+stddef.h
+-
+mpi_portable_platform.h
+/usr/local/opt/open-mpi/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/usr/local/opt/open-mpi/include/openmpi/ompi/mpi/cxx/mpicxx.h
+
+/usr/local/opt/open-mpi/include/mpi_portable_platform.h
+omp.h
+/usr/local/opt/open-mpi/include/omp.h
+omp.h
+/usr/local/opt/open-mpi/include/omp.h
 

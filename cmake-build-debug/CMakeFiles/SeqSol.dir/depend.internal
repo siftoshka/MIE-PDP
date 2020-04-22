@@ -8,6 +8,8 @@ CMakeFiles/SeqSol.dir/main.c.o
  /Users/azadmamiyev/CLionProjects/SeqSol/fileparse.h
  /Users/azadmamiyev/CLionProjects/SeqSol/main.c
  /Users/azadmamiyev/CLionProjects/SeqSol/problem.h
+ /usr/local/opt/open-mpi/include/mpi.h
+ /usr/local/opt/open-mpi/include/mpi_portable_platform.h
 CMakeFiles/SeqSol.dir/problem.c.o
  /Users/azadmamiyev/CLionProjects/SeqSol/fileparse.h
  /Users/azadmamiyev/CLionProjects/SeqSol/problem.c

@@ -7,6 +7,8 @@ CMakeFiles/SeqSol.dir/fileparse.c.o: ../fileparse.h
 CMakeFiles/SeqSol.dir/main.c.o: ../fileparse.h
 CMakeFiles/SeqSol.dir/main.c.o: ../main.c
 CMakeFiles/SeqSol.dir/main.c.o: ../problem.h
+CMakeFiles/SeqSol.dir/main.c.o: /usr/local/opt/open-mpi/include/mpi.h
+CMakeFiles/SeqSol.dir/main.c.o: /usr/local/opt/open-mpi/include/mpi_portable_platform.h
 
 CMakeFiles/SeqSol.dir/problem.c.o: ../fileparse.h
 CMakeFiles/SeqSol.dir/problem.c.o: ../problem.c

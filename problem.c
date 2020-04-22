@@ -3,6 +3,8 @@
 
 int vertexCount = 0, subgroupSize = 0;
 float minCutValue = 0, **graphConnections = NULL;
+float globalCutSum = 0;
+bool *globalSolution = NULL;
 bool *minCutArray = NULL;
 
 // Declares instance variable
@@ -39,6 +41,7 @@ struct ProblemInstance readFromFile(FILE *file) {
     instance.graph.edges = malloc(graph_capacity * edge_size);
 
     minCutArray = malloc(sizeof(bool) * vertexCount);
+    globalSolution = malloc(sizeof(bool) * vertexCount);
     minCutValue = INT64_MAX;
     graphConnections = malloc(sizeof(double *) * vertexCount);
     for (int j = 0; j < vertexCount; j++) {
@@ -114,7 +117,7 @@ void recursiveBruteForceOMPTask(bool *solution, float cutSum, int depth) {
         minCutValue = cutSum;
         for (int i = 0; i < vertexCount; i++)
 #pragma omp critical
-            minCutArray[i] = solution[i];
+                minCutArray[i] = solution[i];
         return;
     }
 
@@ -126,6 +129,23 @@ void recursiveBruteForceOMPTask(bool *solution, float cutSum, int depth) {
     solution[depth] = true;
 #pragma omp task
     recursiveBruteForce(solution, minCutSum(solution, depth + 1), depth + 1);
+}
+
+// Brute-Force with OpenMP Data Parallelism
+void recursiveBruteForceOMPData(bool *solution, float cutSum, int depth) {
+    // In case if it is not correct
+    if (checkPartialSolution(solution, depth))return;
+    if (cutSum > minCutValue) return;
+
+    if (depth == vertexCount) {
+        minCutValue = cutSum;
+        for (int i = 0; i < vertexCount; i++)
+            minCutArray[i] = solution[i];
+        return;
+    }
+
+    globalCutSum = minCutSum(globalSolution, depth);
+    recursiveBruteForce(globalSolution, globalCutSum, depth + 1);
 }
 
 // Check Particular Solution to how many 1 and 0 have
@@ -141,7 +161,7 @@ bool checkPartialSolution(const bool *solution, int depth) {
 }
 
 // Get a sum of Sub-Graph
-double minCutSum(const bool *solution, int depth) {
+float minCutSum(const bool *solution, int depth) {
     float sum = 0;
     for (int i = 0; i < depth; i++) {
         for (int j = 0; j < i; j++) {

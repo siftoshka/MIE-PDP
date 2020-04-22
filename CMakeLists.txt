@@ -41,4 +41,10 @@ endif(OPENMP_FOUND)
 
 add_executable(SeqSol main.c problem.c fileparse.c)
 
+find_package(MPI)
+add_definitions(-DOMPI_SKIP_MPICXX)
+include_directories(SYSTEM ${/usr/local/opt/open-mpi/include})
+link_directories(SYSTEM ${/usr/local/opt/open-mpi/lib})
+target_link_libraries(SeqSol ${/usr/local/opt/open-mpi/lib/})
+
 
