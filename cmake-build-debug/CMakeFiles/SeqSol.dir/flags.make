@@ -4,7 +4,7 @@
 # compile C with /usr/local/opt/llvm/bin/clang
 C_FLAGS =  -fopenmp=libomp -Wno-unused-command-line-argument -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk  
 
-C_DEFINES = -DOMPI_SKIP_MPICXX
+C_DEFINES = 
 
 C_INCLUDES = -I/usr/local/opt/llvm/include 
 

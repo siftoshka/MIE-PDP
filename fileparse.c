@@ -13,7 +13,7 @@ char *readWords(FILE *file) {
     if (letter == EOF) return NULL;
 
     // Allocates buffer with a default size
-    word = malloc(sizeof(char) * 16);
+    word = (char *) malloc(sizeof(char) * 16);
     // Writes last found letter
     word[0] = letter;
     // Starts counting
@@ -29,7 +29,7 @@ char *readWords(FILE *file) {
         // Extends buffer size, when limit has been reached
         if (count == capacity) {
             capacity += 16;
-            word = realloc(word, sizeof(char) * capacity);
+            word = (char *) realloc(word, sizeof(char) * capacity);
         }
         // Writes the letter
         word[count] = letter;
@@ -37,7 +37,7 @@ char *readWords(FILE *file) {
         count++;
     }
     // Ensures that word size equals to the number of letters
-    if (count != capacity) word = realloc(word, count);
+    if (count != capacity) word = (char *) realloc(word, count);
     return word;
 }
 

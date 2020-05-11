@@ -109,6 +109,7 @@ SeqSol: CMakeFiles/SeqSol.dir/main.c.o
 SeqSol: CMakeFiles/SeqSol.dir/problem.c.o
 SeqSol: CMakeFiles/SeqSol.dir/fileparse.c.o
 SeqSol: CMakeFiles/SeqSol.dir/build.make
+SeqSol: /usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib
 SeqSol: CMakeFiles/SeqSol.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable SeqSol"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SeqSol.dir/link.txt --verbose=$(VERBOSE)

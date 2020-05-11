@@ -10,19 +10,20 @@
 
 extern int vertexCount, subgroupSize;
 extern float minCutValue, **graphConnections;
-extern  float globalCutSum;
+extern float globalCutSum;
 extern bool *globalSolution;
 extern bool *minCutArray;
 
 struct Edge {
-    unsigned int node_a;
-    unsigned int node_b;
+    unsigned int nodeA;
+    unsigned int nodeB;
     float weight;
 };
 
 struct Graph {
-    unsigned int node_count;
-    unsigned int edge_count;
+    unsigned int nodeCount;
+    unsigned int edgeCount;
+    int* nodes;
     struct Edge *edges;
 };
 
@@ -33,11 +34,20 @@ struct ProblemInstance {
     struct Graph graph;
 };
 
+struct ProblemSolution {
+    int *array;
+    int size;
+    float cost;
+    bool isValid;
+};
+
 struct ProblemInstance readFromFile(FILE *file);
 
 float minCutSum(const bool *solution, int depth);
 
 void recursiveBruteForce(bool *solution, float cutSum, int depth);
+
+void recursiveBruteForceF(bool *solution, float cutSum, int depth);
 
 void recursiveBruteForceOMPTask(bool *solution, float cutSum, int depth);
 

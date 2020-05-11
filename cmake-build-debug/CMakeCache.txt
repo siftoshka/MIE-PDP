@@ -244,23 +244,11 @@ MPI_C_LINK_FLAGS:STRING=-L/usr/local/Cellar/libevent/2.1.11_1/lib
 //Location of the mpi library for MPI
 MPI_mpi_LIBRARY:FILEPATH=/usr/local/Cellar/open-mpi/4.0.3/lib/libmpi.dylib
 
-//The directory containing a CMake configuration file for MPIs.
-MPIs_DIR:PATH=MPIs_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for OPenMPI.
-OPenMPI_DIR:PATH=OPenMPI_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for OpenMPI.
-OpenMPI_DIR:PATH=OpenMPI_DIR-NOTFOUND
-
 //C compiler flags for OpenMP parallelization
-OpenMP_C_FLAGS:STRING=NOTFOUND
+OpenMP_C_FLAGS:STRING=
 
 //C compiler libraries for OpenMP parallelization
-OpenMP_C_LIB_NAMES:STRING=NOTFOUND
-
-//The directory containing a CMake configuration file for PI.
-PI_DIR:PATH=PI_DIR-NOTFOUND
+OpenMP_C_LIB_NAMES:STRING=
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
@@ -270,6 +258,9 @@ SeqSol_BINARY_DIR:STATIC=/Users/azadmamiyev/CLionProjects/SeqSol/cmake-build-deb
 
 //Value Computed by CMake
 SeqSol_SOURCE_DIR:STATIC=/Users/azadmamiyev/CLionProjects/SeqSol
+
+//Use MPI to enable <mpi.h>
+USE_MPI:BOOL=ON
 
 //Use OpenMP to enable <omp.h>
 USE_OpenMP:BOOL=ON
@@ -435,15 +426,9 @@ MPI_C_LIB_NAMES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MPI_C_LINK_FLAGS
 MPI_C_LINK_FLAGS-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
-MPI_RESULT_C_test_mpi_normal:INTERNAL=FALSE
+MPI_RESULT_C_test_mpi_normal:INTERNAL=TRUE
 //ADVANCED property for variable: MPI_mpi_LIBRARY
 MPI_mpi_LIBRARY-ADVANCED:INTERNAL=1
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_C_fopenmp:INTERNAL=FALSE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_C_fopenmplibiomp5:INTERNAL=FALSE
-//Result of TRY_COMPILE
-OpenMP_COMPILE_RESULT_C_fopenmplibomp:INTERNAL=FALSE
 //ADVANCED property for variable: OpenMP_C_FLAGS
 OpenMP_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OpenMP_C_LIB_NAMES
